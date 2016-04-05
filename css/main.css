@@ -37,53 +37,53 @@ svg {
 
 .linify {
   animation: linify 1s;
- }
+}
 
- @keyframes linify {
+@keyframes linify {
 
-   0% {
+  0% {
 
-     stroke-dasharray: 0, 480;
-   }
+    stroke-dasharray: 0, 480;
+  }
 
   100% {
     stroke-dasharray: 500, 480;
-   }
- }
+  }
+}
 
 
 
- +.is-engaged path:nth-child(6) {
- +  fill: #FF6600;
- +  transition: all 1s;
- +  transition-delay: .5s;
- +}
- +
- .is-engaged path:nth-child(1) {
+.is-engaged path:nth-child(6) {
   fill: #FF6600;
   transition: all 1s;
   transition-delay: .5s;
- }
+}
 
- .is-engaged path:nth-child(2) {
+.is-engaged path:nth-child(1) {
   fill: #FF6600;
   transition: all 1s;
-   ransition-delay: .75s;
- }
+  transition-delay: .5s;
+}
 
- .is-engaged path:nth-child(5) {
+.is-engaged path:nth-child(2) {
   fill: #FF6600;
   transition: all 1s;
   transition-delay: .75s;
- }
+}
+
+.is-engaged path:nth-child(5) {
+  fill: #FF6600;
+  transition: all 1s;
+  transition-delay: .75s;
+}
 .is-engaged path:nth-child(3) {
   fill: #FF6600;
   transition: all 1s;
   transition-delay: 1s;
- }
+}
 
- .is-engaged path:nth-child(4) {
+.is-engaged path:nth-child(4) {
   fill: #FF6600;
   transition: all 1s;
   transition-delay: 1s;
- }
+}
