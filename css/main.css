@@ -31,19 +31,6 @@ svg {
   cursor: pointer;
 }
 
-.btn:active {
-transform: scale(.09);
-transform-origin: 350px 210px;
-}
-
-.btn path:nth-child(2) {
-  transition: all .25s ease;
-}
-
-.btnLhover path:nth-child(2){
-  fill: #f60;
-}
-
 .is-engaged .btn path:nth-child(2){
   fill: #f60;
 }

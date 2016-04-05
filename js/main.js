@@ -1,9 +1,7 @@
 var $svg = $('svg');
 var $lines = $('.lines');
 var $btn = $('.btn');
-var $engaged = $('.engaged');
-
-
+var $engage = $('.engage');
 
 $btn.on('click', function() {
 $lines.addClass('linify');
