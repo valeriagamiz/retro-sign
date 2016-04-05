@@ -31,6 +31,23 @@ svg {
   cursor: pointer;
 }
 
+.btn:active {
+transform: scale(.09);
+transform-origin: 350px 210px;
+}
+
+.btn path:nth-child(2) {
+  transition: all .25s ease;
+}
+
+.btnLhover path:nth-child(2){
+  fill: #f60;
+}
+
+.is-engaged .btn path:nth-child(2){
+  fill: #f60;
+}
+
 .lines path {
   stroke-dasharray: 0, 480;
 }
@@ -51,39 +68,37 @@ svg {
   }
 }
 
-
-
 .is-engaged path:nth-child(6) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: .5s;
 }
 
 .is-engaged path:nth-child(1) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: .5s;
 }
 
 .is-engaged path:nth-child(2) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: .75s;
 }
 
 .is-engaged path:nth-child(5) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: .75s;
 }
 .is-engaged path:nth-child(3) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: 1s;
 }
 
 .is-engaged path:nth-child(4) {
-  fill: #FF6600;
+  fill: #f60;
   transition: all 1s;
   transition-delay: 1s;
 }
